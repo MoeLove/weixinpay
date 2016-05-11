@@ -1,0 +1,6 @@
+{
+  "name": "Weixinpay",
+  "tagline": "微信支付-Python",
+  "body": "weixinpay\r\n============\r\n\r\n[https://pypi.python.org/pypi/weixinpay](https://pypi.python.org/pypi/weixinpay)\r\n\r\n微信支付 Python 库.\r\n\r\n\r\n提供接口\r\n--------\r\n\r\n- 统一下单\r\n- 带签名的客户端支付信息\r\n- 订单查询\r\n- 异步通知验证\r\n- 异步通知请求解析\r\n\r\n\r\n安装\r\n------\r\n\r\n\r\n    $ pip install weixinpay\r\n\r\n\r\nLicense\r\n=========\r\n\r\nCopyright (C) 2016 TaoBeier\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
