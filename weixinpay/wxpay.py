@@ -91,7 +91,7 @@ class Wxpay(object):
         params['package'] = 'Sign=WXPay'
         params['noncestr'] = self._generate_nonce_str()
         params['timestamp'] = str(int(time.time()))
-        params['prepayid'] = prepayid
+        params['prepayid'] = str(prepayid)
         params['sign'] = self.generate_sign(params)
 
         return params
